@@ -47,9 +47,9 @@ function talkYoShit() {
   var wouldYou = rando(no)
   var randomPerson = randoObj(quotes)
   var isThere = `"${rando(quotes[randomPerson])}" -${randomPerson}`
-  document.getElementById("iframe-script").src = `https://form.jotform.com/230446758425057/?canYou=${encodeURIComponent(canYou)}&didYou5=${encodeURIComponent(didYou5)}&didYou7=${encodeURIComponent(didYou7)}&doYou=${encodeURIComponent(doYou)}&wouldYou=${encodeURIComponent(wouldYou)}&isThere=${encodeURIComponent(isThere)}`
-  // document.getElementById("230446758425057").submit()
-  // gtag('event', 'send_form')
+  document.getElementById("230446758425057").src = `https://form.jotform.com/230446758425057/?canYou=${encodeURIComponent(canYou)}&didYou5=${encodeURIComponent(didYou5)}&didYou7=${encodeURIComponent(didYou7)}&doYou=${encodeURIComponent(doYou)}&wouldYou=${encodeURIComponent(wouldYou)}&isThere=${encodeURIComponent(isThere)}`
+  document.getElementById("230446758425057").submit()
+  gtag('event', 'send_form')
 }
 
 function startLoop() {
