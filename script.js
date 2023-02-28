@@ -33,28 +33,29 @@ var news = [
 
 
 $(document).ready(function(){
-  document.getElementById("on").addEventListener("click", startLoop);
-  document.getElementById("off").addEventListener("click", stopLoop);
+  // document.getElementById("on").addEventListener("click", startLoop);
+  // document.getElementById("off").addEventListener("click", stopLoop);
+  talkYoShit()
 })
 
 function talkYoShit() {
-  document.getElementById("iframe-script").src = document.getElementById("iframe-script").src
-  // var canYou = rando(no)
-  // var didYou5 = `${rando(notMePast)}, ${rando(but)} ${rando(bills)}, ${rando(result)}.`
-  // var didYou7 = `${rando(notMePast)}, ${rando(but)}, "${rando(news)}"`
-  // var doYou = rando(notMeNow)
-  // var wouldYou = rando(no)
-  // var randomPerson = randoObj(quotes)
-  // var isThere = `"${rando(quotes[randomPerson])}" -${randomPerson}`
-  document.getElementById("input_4").value = rando(no)
-  document.getElementById("input_5").value = `${rando(notMePast)}, ${rando(but)} ${rando(bills)}, ${rando(result)}.`
-  document.getElementById("input_7").value = `${rando(notMePast)}, ${rando(but)}, "${rando(news)}"`
-  document.getElementById("input_8").value = rando(notMeNow)
-  document.getElementById("input_9").value = rando(no)
+  // document.getElementById("iframe-script").src = document.getElementById("iframe-script").src
+  var canYou = rando(no)
+  var didYou5 = `${rando(notMePast)}, ${rando(but)} ${rando(bills)}, ${rando(result)}.`
+  var didYou7 = `${rando(notMePast)}, ${rando(but)}, "${rando(news)}"`
+  var doYou = rando(notMeNow)
+  var wouldYou = rando(no)
   var randomPerson = randoObj(quotes)
-  document.getElementById("input_10").value = `"${rando(quotes[randomPerson])}" -${randomPerson}`
+  var isThere = `"${rando(quotes[randomPerson])}" -${randomPerson}`
+  // document.getElementById("input_4").value = rando(no)
+  // document.getElementById("input_5").value = `${rando(notMePast)}, ${rando(but)} ${rando(bills)}, ${rando(result)}.`
+  // document.getElementById("input_7").value = `${rando(notMePast)}, ${rando(but)}, "${rando(news)}"`
+  // document.getElementById("input_8").value = rando(notMeNow)
+  // document.getElementById("input_9").value = rando(no)
+  // var randomPerson = randoObj(quotes)
+  // document.getElementById("input_10").value = `"${rando(quotes[randomPerson])}" -${randomPerson}`
  
-  // document.getElementById("230446758425057").src = `https://form.jotform.com/230446758425057/?canYou=${encodeURIComponent(canYou)}&didYou5=${encodeURIComponent(didYou5)}&didYou7=${encodeURIComponent(didYou7)}&doYou=${encodeURIComponent(doYou)}&wouldYou=${encodeURIComponent(wouldYou)}&isThere=${encodeURIComponent(isThere)}`
+  document.getElementById("run-function-button").href = `https://form.jotform.com/230446758425057/?canYou=${encodeURIComponent(canYou)}&didYou5=${encodeURIComponent(didYou5)}&didYou7=${encodeURIComponent(didYou7)}&doYou=${encodeURIComponent(doYou)}&wouldYou=${encodeURIComponent(wouldYou)}&isThere=${encodeURIComponent(isThere)}`
   
   // document.getElementById("230446758425057").submit()
   // gtag('event', 'send_form')
