@@ -8,7 +8,7 @@ var bills = [
   "HB 574 creates barriers for those who work in the electoral process",
   "SB 331 severely limits access to interpreters",
   "HB 1622 pressures local officials towards limiting early access voting through bureaucratic red taep and cumbersome hurdles",
-  "HB 3920 limits mail ballots for those with diabsilites and working class people",
+  "HB 3920 limits mail ballots for those with disabilites and working class people",
   "HB 1128 results in intimidating polling workers",
   "HB 1888 reduces the number of mobile and temporary voting locations",
   "SB 1 institutes partisan poll watchers which erode trust in voting centers, and felony penalties for poll workers and voters",
